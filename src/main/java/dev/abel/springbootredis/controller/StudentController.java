@@ -17,7 +17,7 @@ public class StudentController {
 
     @GetMapping("/Inicio")
     public String inicio() {
-        //comentario Inicial change server
+        //comentario Inicial local 2
         return  "{var1 : 1, var2:2}";
 
         }
