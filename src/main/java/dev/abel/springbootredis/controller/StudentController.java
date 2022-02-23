@@ -17,7 +17,7 @@ public class StudentController {
 
     @GetMapping("/Inicio")
     public String inicio() {
-        //comentario cuatro
+        //comentario dos
         return  "{var1 : 1, var2:2}";
 
         }
