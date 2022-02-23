@@ -17,7 +17,7 @@ public class StudentController {
 
     @GetMapping("/Inicio")
     public String inicio() {
-        return  "{var1 : 1}";
+        return  "{var1 : 1, var2:2}";
 
         }
     @GetMapping("/students")
