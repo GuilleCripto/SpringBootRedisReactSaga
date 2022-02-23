@@ -17,7 +17,7 @@ public class StudentController {
 
     @GetMapping("/Inicio")
     public String inicio() {
-        //comentario Inicial local 2
+        //comentario Inicial desde la rama
         return  "{var1 : 1, var2:2}";
 
         }
