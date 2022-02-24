@@ -18,7 +18,7 @@ public class StudentController {
     @GetMapping("/Inicio")
     public String inicio() {
 
-        //Arreglando los conflictos
+        //from server
 
         return  "{var1 : 1, var2:2, var3:3}";
 
