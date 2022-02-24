@@ -17,7 +17,7 @@ public class StudentController {
 
     @GetMapping("/Inicio")
     public String inicio() {
-        //Comentario Inicial desde Local
+        //Comentario branch login 2
         return  "{var1 : 1, var2:2, var3:3}";
 
         }
