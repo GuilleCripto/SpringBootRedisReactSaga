@@ -17,8 +17,10 @@ public class StudentController {
 
     @GetMapping("/Inicio")
     public String inicio() {
-        //comentario Inicial cahange server
-        return  "{var1 : 1, var2:2}";
+
+        //Comentario Inicial desde Local
+        return  "{var1 : 1, var2:2, var3:3}";
+
 
         }
     @GetMapping("/students")
